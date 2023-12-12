@@ -17,8 +17,20 @@ To access the dataset on GCP, follow these steps:
 
 2. **Dataset Location:**
    - The dataset is stored in a GCP Storage Bucket. You can find the dataset at the following location: `gs://your-bucket/dataset-folder`.
+     
+3. **Downloading the Dataset:**
+   - Use the following command to list files in the dataset folder:
 
-3. **Data Loading:**
+     ```bash
+     !gsutil ls gs://data_ctm/data/data/africa_crop_type_mapping/ghana/
+     ```
+
+     You can download specific files using `gsutil cp` command.
+
+     ```bash
+     !gsutil cp gs://data_ctm/data/data/africa_crop_type_mapping/ghana/your_file.csv .
+     ```
+4. **Data Loading:**
    - The training and validation scripts in this repository are configured to load data directly from the GCP Storage Bucket. Ensure that your GCP credentials are set up correctly on the machine running the code.
 
 ## 3. Model Architecture
