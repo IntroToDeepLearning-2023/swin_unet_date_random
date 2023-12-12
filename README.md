@@ -15,6 +15,12 @@ To access the dataset on GCP, follow these steps:
 1. **GCP Account Setup:**
    - Ensure you have access to the Google Cloud Platform with the necessary permissions.
 
+### Clone Repository
+
+Use the following command to clone the repository:
+
+`https://github.com/IntroToDeepLearning-2023/swin_unet_date_random/tree/main`
+     
 2. **Dataset Location:**
    - The dataset is stored in a GCP Storage Bucket. You can find the dataset at the following location: `gs://your-bucket/dataset-folder`.
      
