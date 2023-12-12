@@ -1,4 +1,4 @@
-# Crop Type Segmentation with Swin Transformer
+# Crop Type Segmentation with Swin Unet with Date Random Transformer
 
 ## Overview
 
