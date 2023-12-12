@@ -1,3 +1,4 @@
+
 # Crop Type Segmentation with Swin Unet with Date Random Transformer
 
 ## Overview
@@ -92,3 +93,9 @@ This is a general overview of the visualization process.
 # Fun Fact! 🚀
 
 Did you know? AI stands for "Amusing Intelligence"! Because making computers smart can be a whole lot of fun! 😄
+
+# training
+## SWIN U-Net
+* Layers: 2-6-2-2
+* The timestamp to be used for the data are selected randomly in the date range between June to November. 
+
