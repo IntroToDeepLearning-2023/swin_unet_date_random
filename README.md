@@ -7,7 +7,7 @@ This repository contains code for a Crop Type Segmentation model based on the Sw
 
 ## 1. Data Source
 
-The dataset used for training and validation is sourced from Google Cloud Platform (GCP). The dataset includes satellite images from various sources, including PlanetScope and Sentinel-2.
+The dataset used for training and validation is sourced from Google Cloud Platform (GCP). The dataset includes satellite images from 3 satellites namely; PlanetScope, Sentinel-1 and Sentinel-2.
 
 ### .2. Accessing Data on GCP
 
