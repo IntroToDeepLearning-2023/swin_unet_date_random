@@ -23,7 +23,7 @@ Use the following command to clone the repository:
 `https://github.com/IntroToDeepLearning-2023/swin_unet_date_random/tree/main`
      
 2. **Dataset Location:**
-   - The dataset is stored in a GCP Storage Bucket. You can find the dataset at the following location: `gs://your-bucket/dataset-folder`.
+   - The dataset is stored in a GCP Storage Bucket. You can find the dataset at the following location: `gs://data_ctm/data/data/africa_crop_type_mapping/ghana/`.
      
 3. **Downloading the Dataset:**
    - Use the following command to list files in the dataset folder:
