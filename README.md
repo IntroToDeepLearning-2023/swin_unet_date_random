@@ -1,9 +1,9 @@
 
-# Crop Type Segmentation with Swin Unet with Date Random Transformer
+# Crop Type Segmentation with Swin Unet:  randomly loading images throughout the crops growing period.
 
 ## Overview
 
-This repository contains code for a Crop Type Segmentation model based on the Swin Transformer architecture. The model is trained to segment different crop types from satellite imagery.
+This repository contains code for a Crop Type Segmentation model based on the Swin Transformer architecture. The model is trained to segment different crop types from satellite imagery. The data loading mechanisms selects the data randomly along the time dimension (Crops growing period).
 
 ## 1. Data Source
 
@@ -44,19 +44,21 @@ Use the following command to clone the repository:
 
 The segmentation model is based on the Swin Transformer architecture, a recent advancement in computer vision. The model is designed for effective segmentation of crop types from satellite imagery.
 
-## 4. Training
+## 4. Running Jupyter Notebook
+
+1. **Training:**
 
 The Jupyter notebook (`IDL_Swin_Unet_RS.ipynb`) includes the complete pipeline for training the model. Make sure to run the notebook from the to set up the necessary dependencies and configurations.
 
-### 5. Configuration
+2. **Configuration:**
 
 Adjust the training configurations in the `config` dictionary in the Jupyter notebook. Key configurations include the number of epochs, learning rate, loss weights, etc.
 
-## 6. Evaluation
+3. **Evaluation:**
 
 The evaluation is also done in (`IDL_Swin_Unet_RS.ipynb`) designed to assess the performance of the trained model on a separate validation dataset.
 
-## 8. Results
+4. **Results:**
 
 The performance of the trained model are printed at the end of the notebook in terms of accuracy and other relevant metrics.
 
