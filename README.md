@@ -35,7 +35,7 @@ Use the following command to clone the repository:
      You can download specific files using `gsutil cp` command.
 
      ```bash
-     !gsutil cp gs://data_ctm/data/data/africa_crop_type_mapping/ghana/your_file.csv .
+     !gsutil cp gs://data_ctm/data/data/africa_crop_type_mapping/ghana/*/your_file.
      ```
 4. **Data Loading:**
    - The training and validation scripts in this repository are configured to load data directly from the GCP Storage Bucket. Ensure that your GCP credentials are set up correctly on the machine running the code.
