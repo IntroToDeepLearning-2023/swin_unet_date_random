@@ -46,27 +46,19 @@ The segmentation model is based on the Swin Transformer architecture, a recent a
 
 ## 4. Training
 
-The training script (`train.py`) includes the complete pipeline for training the model. Make sure to set up the necessary dependencies and configurations before running the script.
+The Jupyter notebook (`IDL_Swin_Unet_RS.ipynb`) includes the complete pipeline for training the model. Make sure to run the notebook from the to set up the necessary dependencies and configurations.
 
 ### 5. Configuration
 
-Adjust the training configurations in the `config` dictionary in the script. Key configurations include the number of epochs, learning rate, loss weights, etc.
+Adjust the training configurations in the `config` dictionary in the Jupyter notebook. Key configurations include the number of epochs, learning rate, loss weights, etc.
 
-### 6. Running the Training Script
+## 6. Evaluation
 
-```bash
-python train.py
-```
-## 7. Evaluation
-
-The evaluation script (`evaluate.py`) is designed to assess the performance of the trained model on a separate validation dataset.
-
-Running the Evaluation Script
-`python evaluate.py`
+The evaluation is also done in (`IDL_Swin_Unet_RS.ipynb`) designed to assess the performance of the trained model on a separate validation dataset.
 
 ## 8. Results
 
-The trained model achieves competitive results in terms of accuracy, F1 score, and other relevant metrics. Check the WandB dashboard for detailed logs and visualizations.
+The performance of the trained model are printed at the end of the notebook in terms of accuracy and other relevant metrics.
 
 Important Note:
 
@@ -89,7 +81,3 @@ This is a general overview of the visualization process.
 - **Bienvenue Jules Himbaza**
   - Program: MECE 2024
   - Email: [hjulesbi@andrew.cmu.edu](mailto:hjulesbi@andrew.cmu.edu)
-
-# Fun Fact! 🚀
-
-Did you know? AI stands for "Amusing Intelligence"! Because making computers smart can be a whole lot of fun! 😄
